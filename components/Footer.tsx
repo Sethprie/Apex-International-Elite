@@ -14,34 +14,34 @@ export default function Footer() {
               Apex International Elite
             </h4>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Líderes globales en distribución de productos de lujo, conectando mercados premium en cinco continentes.
+              Global leaders in luxury product distribution, connecting premium markets across five continents.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-bold mb-4" style={{ color: '#b29559' }}>
-              Enlaces Rápidos
+              Quick Links
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#home" className="text-gray-300 hover:text-white transition-colors">
-                  Inicio
+                  Home
                 </a>
               </li>
               <li>
                 <a href="#about" className="text-gray-300 hover:text-white transition-colors">
-                  Sobre Nosotros
+                  About Us
                 </a>
               </li>
               <li>
                 <a href="#products" className="text-gray-300 hover:text-white transition-colors">
-                  Productos
+                  Products
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
-                  Contacto
+                  Contact
                 </a>
               </li>
             </ul>
@@ -50,20 +50,20 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h4 className="text-lg font-bold mb-4" style={{ color: '#b29559' }}>
-              Servicios
+              Services
             </h4>
             <ul className="space-y-2 text-sm">
-              <li className="text-gray-300">Distribución Premium</li>
-              <li className="text-gray-300">Consultoría Estratégica</li>
-              <li className="text-gray-300">Logística Global</li>
-              <li className="text-gray-300">Asociaciones Exclusivas</li>
+              <li className="text-gray-300">Premium Distribution</li>
+              <li className="text-gray-300">Strategic Consulting</li>
+              <li className="text-gray-300">Global Logistics</li>
+              <li className="text-gray-300">Exclusive Partnerships</li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-bold mb-4" style={{ color: '#b29559' }}>
-              Contacto
+              Contact
             </h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-3">
@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Social Media Section */}
         <div className="flex flex-col items-center mb-8">
           <h4 className="text-lg font-bold mb-4" style={{ color: '#b29559' }}>
-            Síguenos
+            Follow Us
           </h4>
           <div className="flex gap-6">
             <a
@@ -138,17 +138,17 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left text-sm text-gray-300">
           <p>
-            &copy; 2024 Apex International Elite. Todos los derechos reservados.
+            &copy; 2024 Apex International Elite. All rights reserved.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">
-              Política de Privacidad
+              Privacy Policy
             </a>
             <a href="#" className="hover:text-white transition-colors">
-              Términos de Uso
+              Terms of Use
             </a>
             <a href="#" className="hover:text-white transition-colors">
-              Política de Cookies
+              Cookie Policy
             </a>
           </div>
         </div>

@@ -3,6 +3,7 @@ import About from '@/components/About';
 import Values from '@/components/Values';
 import { InteractiveMap } from '@/components/InteractiveMap';
 import { ProductsCatalog } from '@/components/ProductsCatalog';
+import Contact from '@/components/Contact';
 import { ShoppingCart } from '@/components/ShoppingCart';
 import Footer from '@/components/Footer';
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Values />
         <InteractiveMap />
         <ProductsCatalog />
+        <Contact />
         <ShoppingCart />
       </main>
       <Footer />

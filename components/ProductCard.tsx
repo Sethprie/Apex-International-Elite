@@ -57,7 +57,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
               e.currentTarget.style.backgroundColor = '#032b4a';
             }}
           >
-            Agregar
+            Add
           </button>
         </div>
       </div>

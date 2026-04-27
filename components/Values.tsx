@@ -12,32 +12,32 @@ interface Value {
 const values: Value[] = [
   {
     id: 1,
-    title: 'Excelencia',
-    description: 'Comprometidos con la más alta calidad en cada producto y servicio que ofrecemos a nuestros clientes en todo el mundo.',
+    title: 'Excellence',
+    description: 'Committed to the highest quality in every product and service we offer to our clients worldwide.',
     icon: <Award className="w-12 h-12" style={{ color: '#b29559' }} />
   },
   {
     id: 2,
-    title: 'Integridad',
-    description: 'Actuamos con transparencia y honestidad en todas nuestras relaciones comerciales, cumpliendo siempre nuestros compromisos.',
+    title: 'Integrity',
+    description: 'We act with transparency and honesty in all our business relationships, always fulfilling our commitments.',
     icon: <Shield className="w-12 h-12" style={{ color: '#b29559' }} />
   },
   {
     id: 3,
-    title: 'Innovación',
-    description: 'Buscamos continuamente nuevas soluciones y tendencias para satisfacer las necesidades cambiantes de nuestros clientes premium.',
+    title: 'Innovation',
+    description: 'We continuously seek new solutions and trends to meet the changing needs of our premium clients.',
     icon: <Zap className="w-12 h-12" style={{ color: '#b29559' }} />
   },
   {
     id: 4,
-    title: 'Conexión Global',
-    description: 'Conectamos mercados, personas y oportunidades creando puentes comerciales estratégicos entre continentes.',
+    title: 'Global Connection',
+    description: 'We connect markets, people, and opportunities, creating strategic commercial bridges between continents.',
     icon: <Globe className="w-12 h-12" style={{ color: '#b29559' }} />
   },
   {
     id: 5,
-    title: 'Pasión por el Servicio',
-    description: 'Nos apasiona servir a nuestros clientes con dedicación, atención personalizada y respuesta rápida a sus necesidades.',
+    title: 'Passion for Service',
+    description: 'We are passionate about serving our clients with dedication, personalized attention, and rapid response to their needs.',
     icon: <Heart className="w-12 h-12" style={{ color: '#b29559' }} />
   }
 ];
@@ -49,11 +49,11 @@ export default function Values() {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#032b4a' }}>
-            Nuestros Valores Corporativos
+            Our Corporate Values
           </h2>
           <div className="h-1 w-20 mx-auto mb-8" style={{ backgroundColor: '#b29559' }}></div>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Los principios fundamentales que guían cada decisión y acción en Apex International Elite
+            The fundamental principles that guide every decision and action at Apex International Elite
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export default function Values() {
         {/* Bottom Message */}
         <div className="mt-16 p-8 rounded-2xl" style={{ backgroundColor: '#032b4a' }}>
           <p className="text-white text-lg text-center leading-relaxed">
-            Estos valores no son solo palabras para nosotros, sino el cimiento sobre el cual construimos relaciones duraderas con nuestros clientes, socios y comunidades en los que operamos.
+            These values are not just words to us, but the foundation upon which we build lasting relationships with our clients, partners, and the communities in which we operate.
           </p>
         </div>
       </div>

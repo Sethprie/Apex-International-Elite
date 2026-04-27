@@ -152,22 +152,7 @@ export const InteractiveMap = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-12">
-          <button
-            className="px-8 py-4 rounded-xl text-white font-semibold transition-all duration-300 hover:shadow-lg"
-            style={{ backgroundColor: '#b29559' }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = '#a68349';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = '#b29559';
-            }}
-          >
-            Become a Strategic Partner
-          </button>
-        </div>
-      </div>
+              </div>
     </section>
   );
 };

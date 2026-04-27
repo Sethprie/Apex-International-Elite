@@ -24,10 +24,10 @@ export const Hero = () => {
           Apex International Elite
         </h1>
         <p className="text-xl md:text-2xl text-gray-100 mb-4 drop-shadow-md max-w-2xl mx-auto">
-          Conectando Mercados, Liderando Industrias
+          Connecting Markets, Leading Industries
         </p>
         <p className="text-lg md:text-xl text-gray-200 mb-8 drop-shadow-md max-w-3xl mx-auto">
-          Distribuidora premium de productos de lujo con presencia en 5 continentes. Excelencia, integridad e innovación en cada transacción.
+          Premium distributor of luxury products with presence across 5 continents. Excellence, integrity, and innovation in every transaction.
         </p>
       </div>
     </section>
