@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" className="bg-white">
+    <html lang="es" className="bg-white" suppressHydrationWarning>
       <body className="font-sans antialiased">
         <CartProvider>
           {children}

@@ -8,12 +8,12 @@ export const ShoppingCart = () => {
   const { items, updateQuantity, removeItem, total, clearCart } = useCart();
   const [isOpen, setIsOpen] = useState(false);
 
+  const formatPrice = (price: number) => {
+    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  };
+
   const handleOrder = () => {
     if (items.length === 0) return;
-
-    const formatPrice = (price: number) => {
-      return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    };
 
     const message = items
       .map((item) => `${item.name} (Cantidad: ${item.quantity})`)
@@ -67,15 +67,9 @@ export const ShoppingCart = () => {
 
       {/* Panel del carrito */}
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          {/* Overlay */}
-          <div
-            className="absolute inset-0 bg-black bg-opacity-50"
-            onClick={() => setIsOpen(false)}
-          />
-
-          {/* Card del carrito */}
-          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-md max-h-96 flex flex-col">
+        <div className="fixed inset-0 z-50">
+          {/* Card del carrito - Menú desplegable desde la derecha */}
+          <div className="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-2xl flex flex-col transform transition-transform duration-300 ease-in-out">
             {/* Header */}
             <div
               className="flex items-center justify-between p-6 border-b"
