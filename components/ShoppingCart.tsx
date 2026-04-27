@@ -67,9 +67,9 @@ export const ShoppingCart = () => {
 
       {/* Panel del carrito */}
       {isOpen && (
-        <div className="fixed inset-0 z-50">
+        <div className="fixed inset-0 z-[70]">
           {/* Card del carrito - Menú desplegable desde la derecha */}
-          <div className="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-2xl flex flex-col transform transition-transform duration-300 ease-in-out">
+          <div className="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-2xl flex flex-col transform transition-transform duration-300 ease-in-out md:max-w-lg">
             {/* Header */}
             <div
               className="flex items-center justify-between p-6 border-b"

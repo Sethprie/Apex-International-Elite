@@ -94,9 +94,9 @@ export const InteractiveMap = () => {
         </div>
 
         {/* Map Container */}
-        <div className="relative bg-white rounded-2xl shadow-xl p-8 mb-8">
+        <div className="relative bg-white rounded-2xl shadow-xl p-8 mb-8 z-10">
           {isClient && (
-            <div className="h-96 rounded-xl overflow-hidden">
+            <div className="h-96 rounded-xl overflow-hidden relative" style={{ zIndex: 10 }}>
               <MapContainer 
                 center={[10, -60]} 
                 zoom={3} 
