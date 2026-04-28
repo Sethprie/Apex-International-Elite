@@ -16,7 +16,7 @@ export const ProductsCatalog = () => {
           </h2>
           <div className="h-1 w-20 mx-auto mb-8" style={{ backgroundColor: '#b29559' }}></div>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed mb-2">
-            Our catalog includes a curated selection of luxury creams, exclusive perfumes, executive clothing collections, and fine accessories.
+            Our catalog includes a curated selection of imported luxury creams, exclusive perfumes, executive clothing collections, and fine accessories.
           </p>
           <p className="text-md text-gray-600 max-w-2xl mx-auto">
             Each product is personally selected to guarantee maximum quality and exclusivity. All are available for direct WhatsApp orders.

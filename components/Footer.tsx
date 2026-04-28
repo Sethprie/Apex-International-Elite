@@ -94,7 +94,7 @@ export default function Footer() {
           </h4>
           <div className="flex gap-6">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/apexinternationalelite29/?utm_source=ig_web_button_share_sheet"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full flex items-center justify-center transition-all hover:scale-110"
@@ -138,7 +138,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left text-sm text-gray-300">
           <p>
-            &copy; 2024 Apex International Elite. All rights reserved.
+            &copy; 2026 Apex International Elite. All rights reserved.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">

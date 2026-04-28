@@ -11,7 +11,7 @@ export default function About() {
           </h2>
           <div className="h-1 w-20 mx-auto mb-8" style={{ backgroundColor: '#b29559' }}></div>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
-            We are global leaders in luxury product distribution, connecting premium markets across five continents with world-class solutions.
+            We are global leaders in luxury product import and distribution, connecting premium markets across five continents with world-class solutions.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export default function About() {
               Our Mission
             </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              To provide the highest quality premium products to discerning clients worldwide. We are committed to maintaining the highest standards of excellence, integrity, and service in every transaction.
+              To import and provide the highest quality premium products to discerning clients worldwide. We are committed to maintaining the highest standards of excellence, integrity, and service in every transaction.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Since our founding, we have cultivated lasting relationships with select suppliers and VIP clients, ensuring exclusive access to limited collections and special edition products.

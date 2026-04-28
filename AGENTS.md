@@ -1,5 +1,35 @@
 # Apex International Elite - Project Context & Guidelines
 
+## Mensaje de la cliente acerca de la empresa
+
+"To establish ourselves as the leading benchmark in the global market by providing high-end solutions that exceed international standards of excellence, driving the strategic growth of our partners and clients through innovation and an unwavering commitment to quality
+
+Objetivo de la empresa
+
+Our mission is to be the strategic ally that drives partners and clients toward the pinnacle of their industry, operating with integrity, innovation, and an absolute commitment to excellence
+ [26/4/26, 10:31:55 p. m.] Lluvia Clienta: Esa es la misión
+
+Corporate Values
+1. Uncompromising Excellence
+We do not settle for the standard. We strive for perfection in every detail of our high-end solutions, ensuring that every process and product meets the most demanding levels of the international market.
+“Quality is not an act; it is our daily habit.”
+1. Global & Forward-Thinking Vision
+We view the world as a market without borders. We stay at the forefront of technological and commercial trends to anticipate changes and provide our partners with a constant competitive advantage.
+1. Elite Integrity
+Trust is our most valuable currency. We act with total transparency, ethics, and honesty in every negotiation and alliance, ensuring that the prestige of Apex International Elite serves as a guarantee for our clients.
+1. Strategic Innovation
+We leverage creativity and technology as tools to solve complex problems. We don’t just follow the path; we design new routes that optimize growth and efficiency for those who place their trust in us.
+1. Commitment to Partner Success
+We don't just have clients; we have strategic partners. Our success is intrinsically linked to yours; therefore, we dedicate all our intellectual capital and resources to drive you toward the pinnacle of your industry.
+
+Esto me gustaría usarlo para hacer un mapa interactivo con puntos estratégicos de mercados donde tengo alcance
+
+At Apex International Elite, borders are not barriers but points of connection. We possess a strategic network of partners and a logistics infrastructure designed to operate in the world’s leading commercial hubs. Our global presence allows us to identify opportunities in real-time, guaranteeing that our high-end solutions reach any destination with the excellence and speed that the elite market demands.
+
+“Connecting Markets, Leading Industries” puede ser un buen eslogan para esa sección.
+
+Puntos de conexión Panamá, Venezuela, Colombia, España, Ecuador"
+
 ## Company Overview
 **Apex International Elite** is a global logistics and trading company specializing in high-end import and distribution of premium retail products. We position ourselves as the leading benchmark in the international market by providing exceptional solutions that exceed global standards of excellence.
 
@@ -104,3 +134,4 @@ We don't just have clients; we have strategic partners. Our success is intrinsic
 ### Integration Ready
 - Analytics for market insights
 - WhatsApp integration for quote requests
+

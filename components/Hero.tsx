@@ -27,7 +27,7 @@ export const Hero = () => {
           Connecting Markets, Leading Industries
         </p>
         <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 drop-shadow-md max-w-3xl mx-auto px-4">
-          Premium distributor of luxury products with presence across 5 continents. Excellence, integrity, and innovation in every transaction.
+          Premium importer and distributor of luxury products with presence across 5 continents. Excellence, integrity, and innovation in every transaction.
         </p>
         
         {/* CTA Buttons */}

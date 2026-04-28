@@ -27,12 +27,13 @@ export default function Contact() {
     setSubmitStatus('idle');
 
     try {
-      // Create WhatsApp message
-      const message = `New Contact Form Submission:%0A%0AName: ${formData.name}%0AEmail: ${formData.email}%0ACompany: ${formData.company}%0AMessage: ${formData.message}`;
-      const whatsappUrl = `https://wa.me/?text=${message}`;
+      // Create email content
+      const subject = `New Contact Form Submission from ${formData.name}`;
+      const body = `Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\nMessage: ${formData.message}`;
+      const mailtoUrl = `mailto:Apexinternationalelite@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       
-      // Open WhatsApp
-      window.open(whatsappUrl, '_blank');
+      // Open email client
+      window.location.href = mailtoUrl;
       
       // Reset form
       setFormData({
@@ -293,14 +294,14 @@ export default function Contact() {
                 ) : (
                   <>
                     <Send className="w-5 h-5" />
-                    Send Message via WhatsApp
+                    Send Message via Email
                   </>
                 )}
               </button>
             </form>
 
             <p className="text-sm text-gray-500 mt-4 text-center">
-              Your message will be sent directly to our team via WhatsApp for immediate response.
+              Your message will be sent directly to our team via email for prompt response.
             </p>
           </div>
         </div>
